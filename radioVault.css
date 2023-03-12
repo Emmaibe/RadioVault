@@ -2,9 +2,13 @@
 html {
   --font: "Montserrat", sans-serif;
 }
+body {
+  background-color: #f5f5f5;
+}
 main {
   max-width: 1440px;
   margin: auto;
+  background-color: white;
 }
 .mainCont {
   padding-top: 50px;
@@ -133,6 +137,7 @@ nav {
   font-family: var(--font);
   max-width: 980px;
   margin: auto;
+  margin-top: 60px;
 }
 .section3 header {
   text-align: center;
@@ -147,7 +152,7 @@ nav {
 }
 .section3Article {
   display: flex;
-  gap: 70px;
+  gap: 50px;
   align-items: center;
   margin-top: 60px;
 }
@@ -158,7 +163,7 @@ nav {
 }
 .section3Fig1 {
   display: flex;
-  gap: 20px;
+  gap: 24px;
   align-items: center;
 }
 .section3Fig .fig1 img {
@@ -177,4 +182,100 @@ nav {
   display: flex;
   flex-direction: column;
   font-size: 17px;
+}
+.section4 {
+  font-family: var(--font);
+  max-width: 980px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+.section4 header {
+  text-align: center;
+  padding-top: 35px;
+  font-size: 32px;
+}
+.section4 header h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60.95px;
+  margin-bottom: 10px;
+}
+.section4Article {
+  display: flex;
+  gap: 70px;
+  align-items: flex-start;
+  margin-top: 80px;
+  position: relative;
+}
+.section4ArticleDiv {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  margin-top: 60px;
+}
+.section4Fig {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-end;
+}
+.section4Fig .fig1 img {
+  width: 478px;
+  height: 340px;
+}
+.section4Fig .fig2 img {
+  width: 359px;
+  height: 200px;
+}
+.section4Article .fig3 {
+  position: absolute;
+  right: 325px;
+  top: 304px;
+}
+.section4Article .fig3 img {
+  width: 154px;
+  height: 154px;
+}
+footer {
+  max-width: 1440px;
+  height: 247px;
+  background-color: #060608;
+  color: white;
+  margin: auto;
+  font-family: var(--font);
+}
+footer header {
+  font-size: 17px;
+}
+footer header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+.footerDiv {
+  max-width: 1086px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 220px;
+  padding-top: 50px;
+}
+.footerArticle {
+  display: flex;
+  align-items: flex-end;
+  gap: 70px;
+  font-size: 15px;
+}
+.footerArticle2 {
+  display: flex;
+  gap: 110px;
+}
+.footerArticle p a {
+  text-decoration: none;
+  color: white;
+}
+.footerArticle p a img {
+  width: 59px;
+  height: 50px;
 }
