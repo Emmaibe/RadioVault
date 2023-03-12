@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat:ital,wght@0,200;0,400;0,800;0,900;1,900&display=swap");
+main {
+  max-width: 1440px;
+  margin: auto;
+}
+.mainCont {
+  padding-top: 50px;
+  background: url(pexels-jorge-fakhouri-filho-2701570.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1086px;
+  margin: auto;
+  background-color: white;
+}
+.firstNavSec {
+  display: flex;
+  align-items: center;
+}
+.firstNavSec h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+}
+.firstNavSec h1 span {
+  color: #f22f04;
+}
+.firstNavSec ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  font-size: 17px;
+}
+.secondNavSec button {
+  background-color: #f22f04;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 152px;
+  height: 31px;
+  font-size: 17px;
+  padding: 5px 0px;
+}
+.article1 {
+  color: white;
+  background-size: cover;
+  max-width: 1086px;
+  margin: auto;
+}
+.article1 header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500px;
+  font-size: 70px;
+  line-height: 91.43px;
+}
+.article1Section p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.article1Section button {
+  background-color: #f22f04;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 88px;
+  height: 31px;
+  font-size: 17px;
+  padding: 5px 0px;
+  margin-top: 40px;
+}
