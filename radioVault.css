@@ -10,13 +10,6 @@ main {
   margin: auto;
   background-color: white;
 }
-.mainCont {
-  padding-top: 50px;
-  padding-bottom: 35px;
-  background: url(pexels-jorge-fakhouri-filho-2701570.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 nav {
   display: flex;
   align-items: center;
@@ -53,6 +46,13 @@ nav {
   height: 31px;
   font-size: 17px;
   padding: 5px 0px;
+}
+.mainCont {
+  padding-top: 50px;
+  padding-bottom: 35px;
+  background: url(pexels-jorge-fakhouri-filho-2701570.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .article1 {
   color: white;
