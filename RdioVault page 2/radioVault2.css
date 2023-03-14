@@ -9,14 +9,17 @@ main {
   max-width: 1440px;
   margin: auto;
   background-color: white;
+  font-family: var(--font);
 }
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  max-width: 1086px;
+  justify-content: space-around;
+  max-width: 100%;
   margin: auto;
+  gap: 150px;
   background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .firstNavSec {
   display: flex;
@@ -34,7 +37,7 @@ nav {
 .firstNavSec ul {
   display: flex;
   list-style-type: none;
-  gap: 30px;
+  gap: 40px;
   font-size: 17px;
 }
 .secondNavSec button {
@@ -46,6 +49,102 @@ nav {
   height: 31px;
   font-size: 17px;
   padding: 5px 0px;
+}
+.section1 {
+  display: flex;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: #f22f04;
+  font-size: 17px;
+  padding: 70px;
+  padding-right: 50px;
+  border-right: 15px solid #f22f04;
+}
+aside a {
+  text-decoration: none;
+  color: #f22f04;
+}
+.section1Article {
+  padding: 40px;
+}
+.section1Article header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  max-width: 1000px;
+  flex-wrap: 1;
+}
+.section1Article header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-size: 17px;
+}
+.monthlyStreams {
+  display: flex;
+  flex-direction: column;
+}
+.monthlyStreams p {
+  margin-bottom: 0;
+}
+.monthlyStreams h3 {
+  font-size: 25px;
+  margin-top: 0;
+}
+.monthlyStreamsImg img {
+  width: 61px;
+  height: 66px;
+}
+.section1MainBody {
+  max-width: 850px;
+  margin-left: 30px;
+}
+.section1MainBody > h1 {
+  font-size: 50px;
+  font-weight: 700px;
+  margin-top: 65px;
+  margin-bottom: 35px;
+}
+.sec1MainArc1 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.section1MainBody img {
+  width: 294px;
+  height: 210px;
+}
+.section1MainBody > div {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.section1MainBody span h1 {
+  font-size: 50px;
+  font-weight: 700px;
+  margin: 0;
+}
+.section1MainBody span p {
+  font-size: 25px;
+  font-weight: 600px;
+  margin: 0;
+}
+.section1MainBody div button {
+  color: white;
+  padding: 5px 10px;
+  width: 125px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #f22f04;
+  border: none;
+  margin: auto;
+  font-size: 15px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 footer {
