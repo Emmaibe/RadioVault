@@ -69,6 +69,7 @@ aside a {
 }
 .section1Article {
   padding: 40px;
+  padding-top: 70px;
 }
 .section1Article header {
   display: flex;
