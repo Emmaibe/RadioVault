@@ -67,7 +67,17 @@ aside a {
   text-decoration: none;
   color: #f22f04;
 }
-
+.section2 header {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.progress {
+  margin-left: 0.5rem;
+  display: flex;
+  max-width: 880px;
+  justify-content: space-between;
+}
 footer {
   max-width: 1440px;
   height: 247px;
