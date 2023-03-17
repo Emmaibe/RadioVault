@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat:ital,wght@0,200;0,400;0,800;0,900;1,900&display=swap");
+html {
+  --font: "Montserrat", sans-serif;
+}
+body {
+  background-color: #f5f5f5;
+}
+main {
+  max-width: 1440px;
+  margin: auto;
+  background-color: white;
+  font-family: var(--font);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: auto;
+  gap: 150px;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.firstNavSec {
+  display: flex;
+  align-items: center;
+}
+.firstNavSec h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+}
+.firstNavSec h1 span {
+  color: #f22f04;
+}
+.firstNavSec ul {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  font-size: 17px;
+}
+.secondNavSec button {
+  background-color: #f22f04;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  width: 152px;
+  height: 31px;
+  font-size: 17px;
+  padding: 5px 0px;
+}
+.section1 {
+  display: flex;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: #f22f04;
+  font-size: 17px;
+  padding: 70px;
+  padding-right: 50px;
+  border-right: 15px solid #f22f04;
+}
+aside a {
+  text-decoration: none;
+  color: #f22f04;
+}
+
+footer {
+  max-width: 1440px;
+  height: 247px;
+  background-color: #060608;
+  color: white;
+  margin: auto;
+  font-family: var(--font);
+}
+footer header {
+  font-size: 17px;
+}
+footer header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+.footerDiv {
+  max-width: 1086px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 220px;
+  padding-top: 50px;
+}
+.footerArticle {
+  display: flex;
+  align-items: flex-end;
+  gap: 70px;
+  font-size: 15px;
+}
+.footerArticle2 {
+  display: flex;
+  gap: 110px;
+}
+.footerArticle p a {
+  text-decoration: none;
+  color: white;
+}
+.footerArticle p a img {
+  width: 59px;
+  height: 50px;
+}
