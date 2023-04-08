@@ -1,4 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat:ital,wght@0,200;0,400;0,800;0,900;1,900&display=swap");
+
+:root {
+  --clr-primary: #f22f04;
+
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-200: #d9d9d9;
+  --clr-neutral-400: #000000;
+
+  --clr-button: var(--clr-primary);
+  --clr-text: var(--clr-neutral-400);
+  --clr-background: var(--clr-neutral-100);
+  --clr-nav: var(--clr-neutral-200);
+
+  --font-family: "Montserrat", sans-serif;
+
+  --fs-150: 0.9375rem;
+  --fs-170: 1.0625rem;
+  --fs-200: 1.25rem;
+  --fs-220: 1.375rem;
+  --fs-250: 1.5625rem;
+  --fs-300: 1.875rem;
+  --fs-320: 2rem;
+  --fs-400: 2.5rem;
+  --fs-500: 3.125rem;
+  --fs-750: 4.6875rem;
+
+  --fw-100: 400;
+  --fw-100: 500;
+  --fw-100: 600;
+  --fw-100: 700;
+  --fw-900: 900;
+}
+
 html {
   --font: "Montserrat", sans-serif;
 }
